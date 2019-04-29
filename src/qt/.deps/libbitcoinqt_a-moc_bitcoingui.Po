@@ -1,0 +1,846 @@
+qt/libbitcoinqt_a-moc_bitcoingui.o: qt/moc_bitcoingui.cpp qt/bitcoingui.h \
+  config/onex-config.h amount.h serialize.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config \
+  /usr/include/pthread.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/initializer_list \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__nullptr \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string.h \
+  /usr/include/string.h /usr/include/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
+  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
+  /usr/include/sys/_types/_size_t.h /usr/include/sys/_types/_null.h \
+  /usr/include/sys/_types/_ssize_t.h /usr/include/machine/types.h \
+  /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/sys/_types/_u_int8_t.h \
+  /usr/include/sys/_types/_u_int16_t.h \
+  /usr/include/sys/_types/_u_int32_t.h \
+  /usr/include/sys/_types/_u_int64_t.h \
+  /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__tuple \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stdint.h \
+  /usr/include/stdint.h /usr/include/_types/_uint8_t.h \
+  /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h \
+  /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
+  /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
+  /usr/include/mach/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/include/sys/_types/_sigaltstack.h \
+  /usr/include/sys/_types/_ucontext.h \
+  /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_uid_t.h \
+  /usr/include/sys/resource.h /usr/include/sys/_types/_timeval.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+  /usr/include/sys/_types/_wchar_t.h /usr/include/malloc/_malloc.h \
+  /usr/include/sys/_types/_dev_t.h /usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wchar.h \
+  /usr/include/wchar.h /usr/include/sys/_types/_mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stdarg.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdio.h \
+  /usr/include/stdio.h /usr/include/_stdio.h \
+  /usr/include/sys/_types/_va_list.h /usr/include/sys/stdio.h \
+  /usr/include/sys/_types/_off_t.h /usr/include/time.h \
+  /usr/include/sys/_types/_clock_t.h /usr/include/sys/_types/_time_t.h \
+  /usr/include/sys/_types/_timespec.h /usr/include/_wctype.h \
+  /usr/include/__wctype.h /usr/include/sys/_types/_wint_t.h \
+  /usr/include/_types/_wctype_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ctype.h \
+  /usr/include/ctype.h /usr/include/_ctype.h /usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cassert \
+  /usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/atomic \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wctype.h \
+  /usr/include/wctype.h /usr/include/_types/_wctrans_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/chrono \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ctime \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ratio \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/errno.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__threading_support \
+  /usr/include/pthread/pthread_impl.h /usr/include/pthread/sched.h \
+  /usr/include/pthread_impl.h \
+  /usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/include/sys/_pthread/_pthread_t.h /usr/include/pthread/qos.h \
+  /usr/include/sys/qos.h /usr/include/sys/_types/_mach_port_t.h \
+  /usr/include/sched.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/locale.h \
+  /usr/include/locale.h /usr/include/_locale.h /usr/include/xlocale.h \
+  /usr/include/_xlocale.h /usr/include/xlocale/_ctype.h \
+  /usr/include/xlocale/__wctype.h /usr/include/xlocale/_stdio.h \
+  /usr/include/xlocale/_stdlib.h /usr/include/xlocale/_string.h \
+  /usr/include/xlocale/_time.h /usr/include/xlocale/_wchar.h \
+  /usr/include/xlocale/_wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QLabel \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qlabel.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtwidgetsglobal.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtguiglobal.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qglobal.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stddef.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qconfig.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qtcore-config.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsystemdetection.h \
+  /usr/include/TargetConditionals.h /usr/include/AvailabilityMacros.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qprocessordetection.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qcompilerdetection.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qtypeinfo.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsysinfo.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qlogging.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qflags.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qatomic.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbasicatomic.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qatomic_cxx11.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qgenericatomic.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qglobalstatic.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmutex.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qnumeric.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qversiontagging.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtgui-config.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtwidgets-config.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qframe.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qwidget.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qwindowdefs.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobjectdefs.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qnamespace.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobjectdefs_impl.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobject.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstring.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qchar.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbytearray.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qrefcount.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qarraydata.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qlist.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qalgorithms.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qiterator.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qhashfunctions.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qpair.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/list \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbytearraylist.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstringlist.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qregexp.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstringmatcher.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qscopedpointer.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmetatype.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvarlengtharray.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qcontainerfwd.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobject_impl.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmargins.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpaintdevice.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qrect.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsize.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qpoint.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpalette.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qcolor.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qrgb.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qrgba64.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qbrush.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvector.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qmatrix.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpolygon.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qregion.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qdatastream.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qiodevice.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qline.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtransform.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpainterpath.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qimage.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpixelformat.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpixmap.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsharedpointer.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qshareddata.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qhash.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsharedpointer_impl.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfont.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfontmetrics.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfontinfo.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qsizepolicy.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qcursor.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qkeysequence.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QMainWindow \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qmainwindow.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtabwidget.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qicon.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/QMap \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/qmap.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QMenu \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qmenu.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qaction.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvariant.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmap.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qactiongroup.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/QPoint \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/qpoint.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QPushButton \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qpushbutton.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qabstractbutton.h \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QSystemTrayIcon \
+  /Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qsystemtrayicon.h
+
+qt/bitcoingui.h:
+
+config/onex-config.h:
+
+amount.h:
+
+serialize.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config:
+
+/usr/include/pthread.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/initializer_list:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstddef:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stddef.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/__stddef_max_align_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__nullptr:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstring:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string.h:
+
+/usr/include/string.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/sys/_pthread/_pthread_types.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/sys/_types/_size_t.h:
+
+/usr/include/sys/_types/_null.h:
+
+/usr/include/sys/_types/_ssize_t.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
+
+/usr/include/sys/_types/_u_int8_t.h:
+
+/usr/include/sys/_types/_u_int16_t.h:
+
+/usr/include/sys/_types/_u_int32_t.h:
+
+/usr/include/sys/_types/_u_int64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
+
+/usr/include/strings.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/utility:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__tuple:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdint:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdint.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/_types/_uint8_t.h:
+
+/usr/include/_types/_uint16_t.h:
+
+/usr/include/_types/_uint32_t.h:
+
+/usr/include/_types/_uint64_t.h:
+
+/usr/include/_types/_intmax_t.h:
+
+/usr/include/_types/_uintmax_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__debug:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/typeinfo:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdlib:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdlib.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/_types/_pid_t.h:
+
+/usr/include/sys/_types/_id_t.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/machine/_mcontext.h:
+
+/usr/include/i386/_mcontext.h:
+
+/usr/include/mach/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/_pthread/_pthread_attr_t.h:
+
+/usr/include/sys/_types/_sigaltstack.h:
+
+/usr/include/sys/_types/_ucontext.h:
+
+/usr/include/sys/_types/_sigset_t.h:
+
+/usr/include/sys/_types/_uid_t.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/sys/_types/_timeval.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/sys/_types/_ct_rune_t.h:
+
+/usr/include/sys/_types/_rune_t.h:
+
+/usr/include/sys/_types/_wchar_t.h:
+
+/usr/include/malloc/_malloc.h:
+
+/usr/include/sys/_types/_dev_t.h:
+
+/usr/include/sys/_types/_mode_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__undef_macros:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iosfwd:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wchar.h:
+
+/usr/include/wchar.h:
+
+/usr/include/sys/_types/_mbstate_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stdarg.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/_stdio.h:
+
+/usr/include/sys/_types/_va_list.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/sys/_types/_off_t.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/_types/_clock_t.h:
+
+/usr/include/sys/_types/_time_t.h:
+
+/usr/include/sys/_types/_timespec.h:
+
+/usr/include/_wctype.h:
+
+/usr/include/__wctype.h:
+
+/usr/include/sys/_types/_wint_t.h:
+
+/usr/include/_types/_wctype_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ctype.h:
+
+/usr/include/ctype.h:
+
+/usr/include/_ctype.h:
+
+/usr/include/runetype.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__functional_base:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/tuple:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cassert:
+
+/usr/include/assert.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/atomic:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/functional:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ios:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__locale:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string_view:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__string:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cstdio:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cwchar:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cwctype:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cctype:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wctype.h:
+
+/usr/include/wctype.h:
+
+/usr/include/_types/_wctrans_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/mutex:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__mutex_base:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/chrono:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ctime:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/ratio:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/climits:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/system_error:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__errc:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/cerrno:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/errno.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__threading_support:
+
+/usr/include/pthread/pthread_impl.h:
+
+/usr/include/pthread/sched.h:
+
+/usr/include/pthread_impl.h:
+
+/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_once_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_t.h:
+
+/usr/include/pthread/qos.h:
+
+/usr/include/sys/qos.h:
+
+/usr/include/sys/_types/_mach_port_t.h:
+
+/usr/include/sched.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/locale.h:
+
+/usr/include/locale.h:
+
+/usr/include/_locale.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/_xlocale.h:
+
+/usr/include/xlocale/_ctype.h:
+
+/usr/include/xlocale/__wctype.h:
+
+/usr/include/xlocale/_stdio.h:
+
+/usr/include/xlocale/_stdlib.h:
+
+/usr/include/xlocale/_string.h:
+
+/usr/include/xlocale/_time.h:
+
+/usr/include/xlocale/_wchar.h:
+
+/usr/include/xlocale/_wctype.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/map:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__tree:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__node_handle:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/optional:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/set:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QLabel:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qlabel.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtwidgetsglobal.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtguiglobal.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qglobal.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stddef.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qconfig.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qtcore-config.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsystemdetection.h:
+
+/usr/include/TargetConditionals.h:
+
+/usr/include/AvailabilityMacros.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qprocessordetection.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qcompilerdetection.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qtypeinfo.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsysinfo.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qlogging.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qflags.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qatomic.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbasicatomic.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qatomic_cxx11.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qgenericatomic.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qglobalstatic.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmutex.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qnumeric.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qversiontagging.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtgui-config.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtwidgets-config.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qframe.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qwidget.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qwindowdefs.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobjectdefs.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qnamespace.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobjectdefs_impl.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobject.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstring.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qchar.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbytearray.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qrefcount.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qarraydata.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qlist.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qalgorithms.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qiterator.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qhashfunctions.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qpair.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/numeric:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/list:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qbytearraylist.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstringlist.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qregexp.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qstringmatcher.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qscopedpointer.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmetatype.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvarlengtharray.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qcontainerfwd.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qobject_impl.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmargins.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpaintdevice.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qrect.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsize.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qpoint.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpalette.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qcolor.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qrgb.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qrgba64.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qbrush.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvector.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qmatrix.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpolygon.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qregion.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qdatastream.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qiodevice.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qline.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qtransform.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpainterpath.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qimage.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpixelformat.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qpixmap.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsharedpointer.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qshareddata.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qhash.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qsharedpointer_impl.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfont.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfontmetrics.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qfontinfo.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qsizepolicy.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qcursor.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qkeysequence.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QMainWindow:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qmainwindow.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qtabwidget.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtGui/qicon.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/QMap:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/qmap.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QMenu:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qmenu.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qaction.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qvariant.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtCore/qmap.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qactiongroup.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/QPoint:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtCore/qpoint.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QPushButton:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qpushbutton.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/share/../include/QtWidgets/qabstractbutton.h:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/QSystemTrayIcon:
+
+/Users/aleksejbabic/CLionProjects/MNPRO/depends/x86_64-apple-darwin18.5.0/include/QtWidgets/qsystemtrayicon.h:

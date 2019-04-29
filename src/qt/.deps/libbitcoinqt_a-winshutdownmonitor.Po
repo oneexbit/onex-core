@@ -1,0 +1,4 @@
+qt/libbitcoinqt_a-winshutdownmonitor.o: qt/winshutdownmonitor.cpp \
+  qt/winshutdownmonitor.h
+
+qt/winshutdownmonitor.h:

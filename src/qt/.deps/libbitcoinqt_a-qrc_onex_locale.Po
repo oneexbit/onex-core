@@ -1,0 +1,1 @@
+qt/libbitcoinqt_a-qrc_onex_locale.o: qt/qrc_onex_locale.cpp
