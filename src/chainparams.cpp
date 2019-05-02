@@ -54,13 +54,13 @@ static void convertSeed6(std::vector <CAddress> &vSeedsOut, const SeedSpec6 *dat
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         (0, uint256("0000eaf02557cabd4241d4e7df59d2479bd746f547f8be1252e31d672a9b83b0"))
-        (1001, uint256("e757e1ff84da08e4d092f02a8ed9614ba4a72e1dee879471c3e085432b9b8681"));
+        (1000, uint256("000000022c8564112392c20e422dc3fafeb1839f656219ee6b50e09323706f9f"));
 
 
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1555862289, // * UNIX timestamp of last checkpoint block
-        1001,          // * total number of transactions between genesis and last checkpoint
+        1556758437, // * UNIX timestamp of last checkpoint block
+        1220,          // * total number of transactions between genesis and last checkpoint
         //   (the tx=... number in the SetBestChain debug.log lines)
         2000        // * estimated number of transactions per day after checkpoint
 };
@@ -106,8 +106,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 60; // ONEX:
-        nTargetSpacing = 60;  // ONEX:
+        nTargetTimespan = 10 * 60; // ONEX:
+        nTargetSpacing = 1 * 60;  // ONEX:
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 100000000 * COIN;
@@ -115,7 +115,7 @@ public:
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 1000;
-        nModifierUpdateBlock = 1; // we use the version 2 for ONEX
+        nModifierUpdateBlock = 1;
 
         const char *pszTimestamp = "Don't work for weekends, work for our goals - 9/Apr/2019.";
         CMutableTransaction txNew;
@@ -189,7 +189,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "046e31a5f744cac510a962a7d755028a15bea275993a9ac392997268c01151aee66a0334ab2e07649dca87cd2f5a567da3f91484338d14b032c22170d9ce3a67e8";
         strMasternodePoolDummyAddress = "MAKzgFX8EZt3fwzkPv55Q3sZJauPNdR8DQ";
-        nStartMasternodePayments = genesis.nTime; // 24 hours after genesis creation
+        nStartMasternodePayments = genesis.nTime;
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
